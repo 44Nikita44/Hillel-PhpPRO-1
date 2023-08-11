@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Nikita44\\Application\\": "app",
+      "Nikita44\\Source\\": "src"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
