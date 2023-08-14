@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikita44\Source\Models;
+namespace dump;
 
 class Product
 {

@@ -24,14 +24,14 @@ $product->action();
 $base = new \Nikita44\Source\Base();
 $base->action();*/
 
-$hrivnya = new \Nikita44\Source\Currency('UAH');
-$euro = new \Nikita44\Source\Currency('EUR');
+$hrivnya = new \Currency('UAH');
+$euro = new \Currency('EUR');
 //var_dump(\Nikita44\Source\Currency::equals($hrivnya, $euro));
 
-$money1 = new \Nikita44\Source\Money(1000, $hrivnya);
-$money2 = new \Nikita44\Source\Money(1001, $hrivnya);
+$money1 = new \Money(1000, $hrivnya);
+$money2 = new \Money(1001, $hrivnya);
 //var_dump(\Nikita44\Source\Money::equals($money1, $money2));
-var_dump(\Nikita44\Source\Money::add($money1, $money2));
+var_dump(\Money::add($money1, $money2));
 /*var_dump($money1->getAmount());
 var_dump($money1->getCurrency());*/
 

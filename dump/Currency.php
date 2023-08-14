@@ -1,6 +1,5 @@
 <?php
 
-namespace Nikita44\Source;
 
 class Currency
 {
